@@ -66,6 +66,13 @@ p {
   line-height: 1.5em;
 }
 
+.title-hr {
+  width: 50px;
+  background: rgba(7, 17, 103, 0.15);
+  height: 1px;
+  margin: auto;
+}
+
 .padding {
   padding: 40px;
 }

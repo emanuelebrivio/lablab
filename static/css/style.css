@@ -16,24 +16,6 @@ body {
   font-weight: 300;
 }
 
-h1 {
-  font-weight: 300;
-  font-size: 26px;
-  line-height: 1.3em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-h2 {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.3em;
-  text-transform: uppercase;
-}
-p {
-  font-size: 13px;
-  line-height: 1.5em;
-}
-
 .script-font {
   font-family: 'Gloria Hallelujah', serif;
 }
@@ -56,9 +38,6 @@ p {
   background: #FFF;
   color: #333;
 }
-.page.page-white h2 {
-  color: #051284;
-}
 .page.page-light {
   background: #F2F3FA;
   color: #333;
@@ -66,6 +45,25 @@ p {
 .page.page-color {
   background: #071167;
   color: #FFF;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.3em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+h2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  color: #051284;
+}
+p {
+  font-size: 13px;
+  line-height: 1.5em;
 }
 
 .padding {

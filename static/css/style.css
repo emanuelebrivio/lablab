@@ -161,3 +161,11 @@ footer a {
 footer a:hover {
   background: #F2F3FA;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  footer p {
+    text-align: center !important;
+  }
+}

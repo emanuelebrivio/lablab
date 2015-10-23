@@ -101,6 +101,30 @@ p {
 #intro img.logo {
   width: 400px;
   display: block;
+  margin: auto;
+}
+nav,
+nav ul {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  text-align: center
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 5px;
+  display: inline-block;
+}
+nav a:hover {
+  color: rgba(255,255,255,1);
+  font-weight: 600;
 }
 
 .product-container {

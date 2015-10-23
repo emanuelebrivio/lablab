@@ -45,7 +45,10 @@ body {
 }
 
 #intro {
-  
+  background-image: url('../img/background-homepage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #intro img.logo {
   width: 400px;

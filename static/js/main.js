@@ -11,4 +11,12 @@
     
   });
   
+  var productSwiper = new Swiper('.product-container', {
+    pagination: '.product-pagination',
+    slidesPerView: 4,
+    centeredSlides: true,
+    paginationClickable: true,
+    spaceBetween: 30
+  });
+  
 })();

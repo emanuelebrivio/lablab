@@ -7,13 +7,13 @@
     
     // Get the scroll position of the page
     var top  = window.pageYOffset || document.documentElement.scrollTop;
-    var introHeight = document.getElementById('intro').getBoundingClientRect().height;
-    console.log('Top position', top, introHeight);
+    var header = document.querySelector('header');
+    console.log('Top position', top);
     
-    if (top > introHeight) {
-      document.querySelector('header').classList.add('fixed');
+    if (top > 360) {
+      header.classList.add('fixed');
     } else {
-      document.querySelector('header').classList.remove('fixed');
+      header.classList.remove('fixed');
     }
     
   });

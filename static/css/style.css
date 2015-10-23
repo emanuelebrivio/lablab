@@ -2,7 +2,7 @@
  * COLOR PALETTE
  * 
  * blue: #071167
- * lightblue: #F2F3FF
+ * lightblue: #F2F3FA
  * 
  */
 
@@ -20,6 +20,13 @@ body {
   font-family: 'Gloria Hallelujah', serif;
 }
 
+.spacer-20 {
+  height: 20px;
+}
+.spacer-40 {
+  height: 40px;
+}
+
 .page {
   width: 100%;
   height: auto;
@@ -29,7 +36,7 @@ body {
   color: #333;
 }
 .page.page-light {
-  background: lightblue;
+  background: #F2F3FA;
   color: #333;
 }
 .page.page-color {
@@ -43,4 +50,17 @@ body {
 #intro img.logo {
   width: 400px;
   display: block;
+}
+
+.swiper-slide {
+  width: auto;
+}
+.product-pagination {
+  text-align: center;
+}
+.product-pagination span {
+  margin: 0 5px;
+}
+.product-pagination span.swiper-pagination-bullet-active {
+  background: #071167;
 }

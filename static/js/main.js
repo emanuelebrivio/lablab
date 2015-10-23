@@ -13,7 +13,7 @@
   
   var productSwiper = new Swiper('.product-container', {
     pagination: '.product-pagination',
-    slidesPerView: 4,
+    slidesPerView: 'auto',
     centeredSlides: true,
     paginationClickable: true,
     spaceBetween: 30

@@ -50,6 +50,12 @@ body {
   color: #FFF;
 }
 
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px;
+}
+
 h1 {
   font-weight: 300;
   font-size: 26px;

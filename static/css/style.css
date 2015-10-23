@@ -46,6 +46,9 @@ body {
   background: #071167;
   color: #FFF;
 }
+.page.page-color h2 {
+  color: #FFF;
+}
 
 h1 {
   font-weight: 300;

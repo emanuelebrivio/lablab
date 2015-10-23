@@ -65,6 +65,22 @@ p {
   color: #FFF;
 }
 
+.padding {
+  padding: 40px;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
 #intro {
   background-image: url('../img/background-homepage.jpg');
   background-size: cover;
@@ -119,4 +135,18 @@ p {
 }
 .product-pagination span.swiper-pagination-bullet-active {
   background: #071167;
+}
+
+footer {
+  font-size: 13px;
+}
+footer a {
+  color: #071167;
+  text-decoration: none;
+  padding: 5px 5px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+footer a:hover {
+  background: #F2F3FA;
 }

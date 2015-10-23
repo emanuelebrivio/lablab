@@ -1,0 +1,32 @@
+/*
+ * COLOR PALETTE
+ * 
+ * blue: #000000
+ * lightblue: #000000
+ * 
+ */
+
+.page {
+  width: 100%;
+  height: auto;
+}
+.page.page-white {
+  background: #FFF;
+  color: #333;
+}
+.page.page-light {
+  background: lightblue;
+  color: #333;
+}
+.page.page-color {
+  background: blue;
+  color: #FFF;
+}
+
+#intro {
+  
+}
+#intro img.logo {
+  width: 400px;
+  display: block;
+}

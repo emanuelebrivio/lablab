@@ -105,14 +105,12 @@ p {
 }
 nav,
 nav ul {
-  display: block;
-  margin: 0 auto;
-  width: auto;
-  text-align: center
+  margin: 0;
+  padding: 0;
 }
 nav ul {
-  padding: 0;
   list-style: none;
+  text-align: center;
 }
 nav a {
   color: rgba(255,255,255,0.8);
@@ -125,6 +123,34 @@ nav a {
 nav a:hover {
   color: rgba(255,255,255,1);
   font-weight: 600;
+}
+
+header {
+  position: fixed;
+  display: none;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(7, 17, 103, 0.85);
+  padding: 20px;
+}
+header.fixed {
+  display: block;
+}
+header ul {
+  text-align: right;
+}
+header li {
+  display: inline-block;
+}
+header a {
+  font-weight: 300 !important;
+}
+header img.logo {
+  position: absolute;
+  left: 20px;
+  top: 10px;
 }
 
 .product-container {

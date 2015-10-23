@@ -16,7 +16,11 @@
     slidesPerView: 'auto',
     centeredSlides: true,
     paginationClickable: true,
-    spaceBetween: 30
+    spaceBetween: 30,
+  });
+  
+  smoothScroll.init({
+    offset: 80,
   });
   
 })();

@@ -2,6 +2,15 @@
   
   'use strict';
   
+  NodeList.prototype.forEach = Array.prototype.forEach;
+  HTMLCollection.prototype.forEach = Array.prototype.forEach;
+
+  NodeList.prototype.on = function (event, listener) {
+    this.forEach(function (el) {
+      el.addEventListener(event, listener);
+    });
+  };
+  
   // Add a listener to the Scroll Event
   window.addEventListener('scroll', function () {
     
@@ -31,5 +40,17 @@
   smoothScroll.init({
     offset: 80,
   });
+  
+  document.querySelectorAll('.product-overlay').on('click', function () {
+    document.querySelectorAll('#overlay input').forEach(function (input) {
+      input.value = '';
+    });
+    document.getElementById('overlay').classList.add('visible');
+  });
+  
+  document.querySelector('#overlay form').addEventListener('submit', function () {
+    document.getElementById('overlay').classList.remove('visible');
+  });
+  
   
 })();

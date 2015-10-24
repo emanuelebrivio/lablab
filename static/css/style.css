@@ -114,9 +114,9 @@ b {
   background-repeat: no-repeat;
 }
 #intro img.logo {
-  width: 400px;
+  width: 160px;
   display: block;
-  margin: auto;
+  margin: 0 auto 30px auto;
 }
 nav,
 nav ul {
@@ -162,7 +162,7 @@ header li {
 header a {
   font-weight: 300 !important;
 }
-header img.logo {
+header a.logo {
   position: absolute;
   left: 20px;
   top: 10px;

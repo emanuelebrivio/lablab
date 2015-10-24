@@ -76,6 +76,10 @@ p {
   font-size: 13px;
   line-height: 1.5em;
 }
+strong,
+b {
+  font-weight: 600;
+}
 
 .title-hr {
   width: 50px;

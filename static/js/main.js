@@ -23,6 +23,8 @@
     slidesPerView: 'auto',
     centeredSlides: true,
     paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
     spaceBetween: 30,
   });
   

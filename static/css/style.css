@@ -171,6 +171,32 @@ header img.logo {
 .product-container {
   width: 100%;
   overflow: hidden;
+  position: relative;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background: #F2F3FA;
+  color: #071167;
+  text-align: center;
+  padding: 10px;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #071167;
+  color: #FFF;
+}
+.swiper-button-next i,
+.swiper-button-prev i {
+  font-size: 32px;
+  line-height: 44px;
+}
+.swiper-button-next {
+  right: 0;
+  padding-right: 20px;
+}
+.swiper-button-prev {
+  left: 0;
+  padding-left: 20px;
 }
 .swiper-slide {
   width: auto;

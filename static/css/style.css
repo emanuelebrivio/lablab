@@ -241,7 +241,8 @@ header a.logo {
 
 #bio .img {
   width: 100%;
-  height: 520px;
+  height: 680px;
+  min-height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -304,5 +305,8 @@ footer a:hover {
 @media screen and (max-width: 768px) {
   footer p {
     text-align: center !important;
+  }
+  #bio .img {
+    max-height: 400px;
   }
 }

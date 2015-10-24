@@ -27,6 +27,14 @@
     
   });
   
+  var fixHeight = function () {
+    var bioH = document.querySelector('#bio .fix-height .padding').getBoundingClientRect().height;
+    document.querySelector('#bio .img').style.height = bioH + 'px';
+  };
+  
+  window.addEventListener('resize', fixHeight);
+  setTimeout(fixHeight, 200);
+  
   var productSwiper = new Swiper('.product-container', {
     pagination: '.product-pagination',
     slidesPerView: 'auto',

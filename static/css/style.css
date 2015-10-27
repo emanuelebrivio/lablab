@@ -310,3 +310,18 @@ footer a:hover {
     max-height: 400px;
   }
 }
+
+#comingsoon {
+  height: 100%;
+  background-color: #051949;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+#comingsoon img.logo {
+  width: 160px;
+  display: block;
+  margin: 0 auto 30px auto;
+}
